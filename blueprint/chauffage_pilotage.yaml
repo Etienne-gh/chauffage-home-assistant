@@ -41,7 +41,7 @@ blueprint:
 variables:
   temperature_hg: 10
 
-alias: Pilotage chauffage bureau Patrick
+alias: Pilotage chauffage salon
 description: ''
 trigger:
   - platform: state
@@ -137,3 +137,4 @@ action:
         target:
           entity_id: !input entity_thermostat_tpi
 mode: single
+
